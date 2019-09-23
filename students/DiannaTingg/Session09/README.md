@@ -22,7 +22,7 @@ Functionality
 
     - Maybe add logic where you tell them that the name is not in the DB, and do they want to create it, rather than simply creating a new record for a typo in a donor name.
 
-Code structure
+**Code structure**
 
 * Classes should have clear purpose and encapsulation: only the code within a class should know exactly how the data are stored, for instance.
 
@@ -38,7 +38,7 @@ Code structure
 
   - The logic code should be 100% testable (without mocking input() or any fancy stuff like that)
 
-Testing
+**Testing**
 
 * All logic code should be tested.
 
@@ -53,17 +53,17 @@ Testing
   - you'll probably find this easier with a well structured OO approach -- that is, you can test an individual donor functionality without knowing about the rest of the donors.
 
 
-The "soft" stuff:
+**The "soft" stuff:**
 
-Style:
+**Style:**   
     - conform to PEP8! (or another consistent style)
 
     - You can use 95 or some other reasonable number for line length
 
-Docstrings:
+**Docstrings:**  
     Functions and classes should all have good docstrings. They can be very short if the function does something simple.
 
-Naming:
+**Naming:**  
     All classes, functions, methods, attributes, variables should have appropriate names: meaningful, but not too detailed.
 
 Extra Ideas:
