@@ -27,8 +27,6 @@ Update your mailroom program to:
 
 Example:
 
-.. code-block:: ipython
-
   In [3]: d
   Out[3]: {'first_name': 'Chris', 'last_name': 'Barker'}
 
@@ -59,8 +57,6 @@ Your main menu may look something like::
 The letters should each get a unique file name -- you can keep it really simple and just use the donor's name or add a date timestamp for additional uniqueness.
 
 You want to avoid specifying a hardcoded file path when creating the files, for example don't to this:
-
-.. code-block:: python
 
     open("/home/users/bob/dev/mailroom/thank_you.txt", "w")
 
