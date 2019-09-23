@@ -1,0 +1,14 @@
+# Dianna's Git Ignore
+
+# Pycharm files
+.idea/
+
+# HTML tests
+test_html_output*
+
+# Examples
+index_slicing.py
+properties_example.py
+quadratic.py
+sort_key.py
+vector.py
