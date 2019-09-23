@@ -2,6 +2,7 @@
 
 # Pycharm files
 .idea/
+../../.idea/
 
 # HTML tests
 test_html_output*
